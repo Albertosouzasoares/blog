@@ -1,6 +1,9 @@
 ---
 layout: page
+
 title: Sobre
+description: Bem-vindo(a) ao meu blog! Aqui você encontrará artigos e insights sobre ciência, tecnologia e programação.
+
 permalink: "/sobre"
 ---
 

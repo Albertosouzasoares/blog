@@ -11,20 +11,20 @@
         <meta property="og:locale" content="pt_BR" />
         <meta name="description" content="{{ site.description }}" />
         <meta property="og:description" content="{{ site.description }}" />
-        <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-        <meta property="og:url" content="{{ site.url }}{{ page.url}}" />
+        <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}" />
+        <meta property="og:url" content="{{ site.baseurl }}{{ page.url}}" />
         <meta property="og:site_name" content="{{ site.title }}" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
         <meta property="twitter:title" content="{{ site.title }}" />
         <script type="application/ld+json">
-            {"@context":"https://schema.org","@type":"WebPage","description":"{{ site.description }}","headline":"{{ site.title }}","url":"{{ site.url }}{{ page.url }}"}
+            {"@context":"https://schema.org","@type":"WebPage","description":"{{ site.description }}","headline":"{{ site.title }}","url":"{{ site.baseurl }}{{ page.url }}"}
         </script>
     <!-- End Jekyll SEO tag -->
 
     <link rel="stylesheet" href="/blog/assets/main.css">
     <link rel="stylesheet" href="/blog/assets/css/style.css">
-    <link type="application/atom+xml" rel="alternate" href="{{ site.url}}feed.xml" title="{{ site.title }}" />
+    <link type="application/atom+xml" rel="alternate" href="/blog/feed.xml" title="{{ site.title }}" />
     <title>{{ page.title }}</title>
 
     <style type="text/css" media="screen">

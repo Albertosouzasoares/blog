@@ -24,7 +24,7 @@
 
     <link rel="stylesheet" href="/blog/assets/main.css">
     <link rel="stylesheet" href="/blog/assets/css/style.css">
-    <link type="application/atom+xml" rel="alternate" href="{{ site.url }}feed.xml" title="{{ site.title }}" />
+    <link type="application/atom+xml" rel="alternate" href="/blog/feed.xml" title="{{ site.title }}" />
     <title>{{ site.title }}</title>
 </head>
 <body>
@@ -38,7 +38,7 @@
                     <li>
                         <time class="post-meta" datetime="{{ post.date }}">{{ post.date-br }}</time>
                         <h3>
-                            <a class="post-link" href="/blog{{ post.url }}">{{ post.title }}</a>
+                            <a class="post-link" href="/blog/{{ post.url }}">{{ post.title }}</a>
                         </h3>
                     </li>
                 </ul>
