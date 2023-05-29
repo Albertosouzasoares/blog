@@ -1,0 +1,76 @@
+body {
+    min-width: 260px;
+}
+
+@media (max-width: 600px) {
+    header div.wrapper .site-title {
+        display: block;
+        text-align: center;
+        float: none;
+    }
+    header div.wrapper .site-nav {
+        float: none;
+        width: 100%;
+        height: auto;
+        border: none;
+        border-bottom: 1px solid #e8e8e8;
+        position: initial;
+    }
+    header div.wrapper ul.menu {
+        margin: 0px 0px 15px 0px;
+    }
+}
+
+@media (min-width: 601px) { 
+    header div.wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header div.wrapper ul.menu {
+        margin: 0px;
+    }
+}
+
+header div.wrapper .site-nav {
+    line-height: initial;
+}
+header div.wrapper ul.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+header div.wrapper ul.menu li {
+    list-style: none;
+}
+header div.wrapper ul.menu a {
+    display: block;
+    padding: 2px 20px;
+    background-color: #E3E3E390;
+    border-radius: 6px;
+}
+header div.wrapper .footer-col-wrapper:after, .wrapper:after {
+    display: none;
+}
+
+main.site-content {
+    flex: 1;
+}
+main div.home {
+    margin-top: 15px;
+}
+main .home ul.post-list {
+    border-bottom: 1px solid #e8e8e8;
+}
+main .home ul.post-list li {
+    margin-bottom: 20px;
+}
+
+footer ul.social-media-list a {
+    display: flex;
+    align-items: flex-end;
+}
+footer ul.social-media-list a svg {
+    margin: 0px 8px 2px 0px;
+}

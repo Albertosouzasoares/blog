@@ -1,0 +1,14 @@
+title: Alberto Souza
+description: Bem-vindo(a) ao meu blog sobre ciência, tecnologia e programação! Mergulhe no mundo da inovação e descoberta enquanto exploramos esses campos fascinantes.
+
+permalink: "/:title/"
+baseurl: "/blog"
+url: "https://Albertosouzasoares.github.id"
+
+email: albertodesouzasoares@hotmail.com
+github: Albertosouza
+instagram: Albertosoouza
+
+theme: minima
+plugins:
+  - jekyll-feed

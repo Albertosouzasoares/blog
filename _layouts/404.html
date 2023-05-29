@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+        <meta name="generator" content="Jekyll v4.3.2" />
+        <meta property="og:title" content="{{ site.title }}" />
+        <meta property="og:locale" content="pt_BR" />
+        <meta name="description" content="{{ site.description }}" />
+        <meta property="og:description" content="{{ site.description }}" />
+        <link rel="canonical" href="{{ page.url }}" />
+        <meta property="og:url" content="{{ page.url}}" />
+        <meta property="og:site_name" content="{{ site.title }}" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta property="twitter:title" content="{{ site.title }}" />
+        <script type="application/ld+json">
+            {"@context":"https://schema.org","@type":"WebPage","description":"{{ site.description }}","headline":"{{ site.title }}","url":"{{ page.url }}"}
+        </script>
+    <!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link type="application/atom+xml" rel="alternate" href="{{ site.url}}/feed.xml" title="{{ site.title }}" />
+    <title>{{ page.title }}</title>
+
+    <style type="text/css" media="screen">
+        .container {
+            margin: 10px auto;
+            max-width: 600px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 30px 0;
+            font-size: 4em;
+            line-height: 1;
+            letter-spacing: -1px;
+        }
+    </style>
+</head>
+<body>
+    {% include header.html %}
+
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+            <div class="container">
+                {{ content }}
+            </div>
+        </div>
+    </main>
+
+    {% include footer.html %}
+</body>
+</html>
