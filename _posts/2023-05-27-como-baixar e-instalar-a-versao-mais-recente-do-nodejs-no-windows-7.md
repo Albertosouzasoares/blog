@@ -10,7 +10,7 @@ Desde abril de 2021, o suporte para o Node.js no Windows 7 foi descontinuado, co
 
 Neste tutorial, vou te ensinar como baixar e instalar a versão mais recente do Node.js no Windows 7, permitindo que você aproveite todos os recursos e melhorias oferecidos pelo Node.js atualizado.
 
-Acesse o link [https://nodejs.org/en/download/releases](https://nodejs.org/en/download/releases) e escolha uma versão. Vamos selecionar a versão 18.16.0, pois é a mais estável. Clique em "Releases".
+Acesse o link <a href="https://nodejs.org/en/download/releases" target="_blanck">https://nodejs.org/en/download/releases</a> e escolha uma versão. Vamos selecionar a versão 18.16.0, pois é a mais estável. Clique em "Releases".
 
 ![node.js download](https://raw.githubusercontent.com/Albertosouzasoares/tabnews-posts/main/2023-05-25-como-baixar-e-instalar-a-vers%C3%A3o-mais-recente-do-nodejs-no-windows-7/img-1.PNG)
 
