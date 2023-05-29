@@ -6,8 +6,6 @@ date-br: 25 de maio de 2023 às 11h40
 description: "Desde abril de 2021, o suporte para o Node.js no Windows 7 foi descontinuado, com a última versão compatível sendo a 13. No entanto, muitas pessoas ainda utilizam o Windows 7 e necessitam da versão mais atualizada do Node.js."
 ---
 
-# Como Baixar e Instalar a Versão Mais Recente do Node.js no Windows 7
-
 Desde abril de 2021, o suporte para o Node.js no Windows 7 foi descontinuado, com a última versão compatível sendo a 13. No entanto, muitas pessoas ainda utilizam o Windows 7 e necessitam da versão mais atualizada do Node.js.
 
 Neste tutorial, vou te ensinar como baixar e instalar a versão mais recente do Node.js no Windows 7, permitindo que você aproveite todos os recursos e melhorias oferecidos pelo Node.js atualizado.
