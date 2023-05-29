@@ -22,9 +22,9 @@
         </script>
     <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/main.css" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <link type="application/atom+xml" rel="alternate" href="{{ site.url }}/feed.xml" title="{{ site.title }}" />
+    <link rel="stylesheet" href="/blog/assets/main.css">
+    <link rel="stylesheet" href="/blog/assets/css/style.css">
+    <link type="application/atom+xml" rel="alternate" href="{{ site.url }}feed.xml" title="{{ site.title }}" />
     <title>{{ site.title }}</title>
 </head>
 <body>
@@ -38,13 +38,13 @@
                     <li>
                         <time class="post-meta" datetime="{{ post.date }}">{{ post.date-br }}</time>
                         <h3>
-                            <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+                            <a class="post-link" href="/blog/{{ post.url }}">{{ post.title }}</a>
                         </h3>
                     </li>
                 </ul>
                 {% endfor %}
 
-                <p class="rss-subscribe">inscreva-se <a href="/feed.xml">via RSS</a></p>
+                <p class="rss-subscribe">inscreva-se <a href="/blog/feed.xml">via RSS</a></p>
             </div>
         </div>
     </main>
