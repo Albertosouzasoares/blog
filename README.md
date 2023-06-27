@@ -23,4 +23,5 @@ Confira o meu blog ao vivo: [Alberto Souza](https://Albertosouzasoares.github.io
 Se você tiver alguma dúvida, sugestão ou apenas quiser bater um papo, entre em contato comigo:
 
 - E-mail: albertodesouzasoares@hotmail.com
-- instagram: [albertosoouza](https://www.instagram.com/albertosoouza)
+- Instagram: [albertosoouza](https://www.instagram.com/albertosoouza)
+- LinkedIn: [albertosoouza](https://www.linkedin.com/in/albertosoouza)
